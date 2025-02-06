@@ -94,6 +94,42 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f4f1de;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(64, 61, 57, 0.2);
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.flex-container img {
+    max-width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.flex-container .text {
+    max-width: 50%;
+}
+
+.flex-container .text h2 {
+    font-size: 2.5rem;
+    color: #403d39;
+    margin-bottom: 20px;
+}
+
+.flex-container .text p {
+    font-size: 1.2rem;
+    color: #403d39;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 button {
     background: #f2cc8f;
     color: #403d39;
