@@ -1,0 +1,120 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f1de;
+    color: #403d39;
+}
+
+header {
+    background: #e07a5f;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #f2cc8f;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(135deg, #f2cc8f, #e07a5f);
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.feature {
+    padding: 20px;
+    background: #81b29a;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(64, 61, 57, 0.2);
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.products {
+    text-align: center;
+    padding: 20px;
+}
+
+.product {
+    display: inline-block;
+    background: #81b29a;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(64, 61, 57, 0.2);
+    width: 220px;
+    transition: transform 0.3s ease-in-out;
+    color: white;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background: #f2cc8f;
+    color: #403d39;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+button:hover {
+    background: #e07a5f;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #403d39;
+    color: white;
+    margin-top: 20px;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.3);
+}
